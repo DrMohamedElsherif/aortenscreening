@@ -1,0 +1,42 @@
+Package: Aortenscreening
+Title: An Amazing Shiny App
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Thomas",
+           family = "Schroeder",
+           role = c("aut", "cre"),
+           email = "thomas.schroeder@rbk.de")
+Description: What the package does (one paragraph).
+License: What license is it under?
+Imports: 
+    config,
+    golem,
+    shiny,
+    markdown,
+    shinydashboard,
+    shinyWidgets,
+    shinyalert,
+    shinyvalidate,
+    rmarkdown,
+    lubridate,
+    PsaApiR,
+    DT,
+    stringr,
+    dplyr,
+    openxlsx,
+    APIUtilizeR,
+    shinyjs,
+    uuid
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Collate: 
+    'app_config.R'
+    'global_reactives.R'
+    'utils.R'
+    'app_server.R'
+    'app_ui.R'
+    'mod_contact_ui.R'
+    'mod_database_ui.R'
+    'mod_upload_ui.R'
+    'run_app.R'

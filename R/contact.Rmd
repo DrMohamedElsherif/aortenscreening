@@ -1,0 +1,36 @@
+### **DISCLAIMER**
+
+**Diese Software ist kein zertifiziertes Medizinprodukt und daher nicht im Kontext der Patientenversorgung zu verwenden!**  
+**Verwenden Sie diese Anwendung ausschließlich im Rahmen der Studie "Aortenscreening"!**
+
+### Über diese App
+
+Diese Anwendung wurde im Rahmen des Studienprojekts **Aortenscreening** entwickelt und dient der Eingabe und Verwaltung von Informationen aus dem Aortenscreening im RBK Stuttgart. Die Durchführung des Projekts erfolgt in Zusammenarbeit zwischen der Fachabteilung *Herz- und Gefäßchirurgie* und des *Centrums für Medizinische Datenintegration* (meDIC).  
+Alle eingegebenen Daten werden in einer dedizierten Studiendatenbank innerhalb des **meDICs** des Bosch Health Campus (BHC) persistiert und verwaltet. 
+
+### Wie Sie diese App verwenden
+
+Geben Sie Daten der Probanden im Reiter *Daten erfassen* an. Möchten Sie einen neuen Datensatz anlegen, befüllen Sie die Felder und klicken Sie anschließend auf *Werte in Datenbank übernehmen*. Eventuelle Validierungsfehler werden angezeigt und müssen behoben werden bevor der Datensatz durch eine erneute Aktivierung des Buttons abgespeichert werden kann. Ein Klick auf *Reset* setzt alle Einträge ohne eine Speicherung in den Eingabefeldern zurück. 
+
+Sie können die Körpergröße mit Komma oder Punkt getrennt angeben - Kommas werden automatisch ersetzt (die Speicherung erfolgt einheitlich in englischem Format und gerundet auf 2 Nachkommastellen).  
+Möchten Sie Angaben zu einem bereits existierenden Patienten erweitern oder ändern, laden Sie die Probanden über das oberste Dropdown-Menü, ändern Sie die Angaben wie gewünscht und wählen Sie erneut *Werte in Datenbank übernehmen*. Die App speichert sämtliche jemals gemachten Angaben, berücksichtigt in der Anzeige und Weiterverarbeitung aber jeweils nur den aktuellsten Datensatz pro Patient.
+
+### Zugriffskontrolle
+
+Der Zugriff auf die Anwendung erfolgt über einen dedizierten Server innerhalb der meDIC-Infrastruktur und ist ausschließlich über das Intranet des RBK möglich. Zugelassen zur Einsicht und Bearbeitung der Daten über die Anwendung ist ausgewähltes medizinisches Personal, das vom meDIC-Team nach Absprache mit dem Fachbereich *Herz- und Gefäßchirurgie* freigeschaltet wird. Die Authentifizierung erfolgt dabei jeweils über den Windows-Account des Nutzers.  
+**Hinweis**: Zu jeder Änderung an den Daten werden Uhrzeit und Auslöser der Änderung (Windows-ID) in der Datenbank erfasst.
+
+### Kontakt
+
+- Hauptverantwortliche Entwickler: **Micha Christ** (micha.christ@rbk.de), **Thomas Schröder** (thomas.schroeder@rbk.de), **Nico Schmid** (nico.schmid@rbk.de)
+- Verantwortliche IT-Stelle: **meDIC** (medic@rbk.de)
+- Ansprechpartnerin im Fachbereich: **Dr. med. Nora Göbel**
+
+### Änderungshistorie
+
+- **27.02.2025**: Abschluss Testphase - Vorbereitung GO-LIVE
+- **14.02.2025**: Abschluss der initialen Entwicklung. Start der Testphase  
+- **12.02.2025**: Initiale Version
+
+
+Letzte Änderung dieses Dokuments: 10.03.2025
